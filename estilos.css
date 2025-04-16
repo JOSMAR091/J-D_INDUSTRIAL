@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: navy;
+    line-height: 1.6;
+    overflow-y: scroll; /* o scroll */
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: hsl(0, 88%, 17%);
+    color: white;
+    padding: 10px 30px;
+    height: 250px;
+}
+
+/* Logo más pequeño */
+.logo-img {
+    width: 250px;
+    height: 250px;
+    margin-left: -1000px;
+    display: flex;
+}
+
+header h1 {
+    margin: 0 20px;
+    font-size: 2rem;
+    position: relative;
+    top: -10px;
+}
+
+/* Navegación dentro del header */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 25px 20px;
+    display: inline-block;
+   
+
+
+}
+
+nav a:hover {
+    background-color: navy;
+    border-radius: 25px;
+    
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: navy;
+    color: white;
+    height: 350px;
+   
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: rgb(99, 29, 29);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #e0e0e0;
+}
+
+/* Content */
+.contenido {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-style: arial ;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.contenido h2, h3 {
+    color: #000000;
+    margin-top: 20px;
+    font-style: arial black;
+}
+
+.contenido h2, h3 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+.contenido h4 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold; /* opcional */
+}
+.contenido ul {
+    list-style: disc inside;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
